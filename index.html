@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formativa Programação Web</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+   <header>
+    <div class="header-container"> 
+      <img src="ep.png" alt="Logo da escola" class="logo-header">
+      <div class="texto-header-central">
+        <h1 class="titulo-header">EEEP Jaime da Cunha Rebouças</h1>
+        <p class="subtitulo-header">Integração do Ensino Médio à formação profissional de nível técnico, oferecendo educação em tempo integral aos jovens</p>
+      </div>
+    </div>
+  </header> 
+
+  <!-- Menu -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-principal">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">EEEP Jaime da Cunha Rebouças</a>
+      </div>
+      <div class="collapse navbar-collapse" id="menu-principal">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container content">
+    
+    <!-- Sobre -->
+    <section id="sobre" class="section-title">
+      <h2>Sobre a escola</h2>
+      <p>A EEEP Jaime da Cunha Rebouças, localizada no bairro Mutamba, em Icapuí (CE), é uma escola pública estadual que oferece ensino médio em tempo integral integrado à educação profissional. Inaugurada em 29 de março de 2022, conta com estrutura moderna e oferece cursos técnicos como Administração, Guia de Turismo, Desenvolvimento de Sistemas e Agronegócio. A escola prepara os jovens para o mercado de trabalho com formação de qualidade, sendo um marco na educação da região.</p>
+    </section>
+
+    <hr>
+
+    <!-- Cursos -->
+    <h2 id="cursos" class="section-title">Cursos Oferecidos</h2>
+    <div class="row">
+      <div class="col-md-6 coluna-esquerda">
+        <div class="curso">
+          <img src="adm.png" alt="Curso de Administração">
+          <div>
+            <strong>Administração</strong> 
+            <p>O curso de Administração visa formar profissionais capacitados para atuar em diversas áreas de gestão, como finanças, marketing, recursos humanos e planejamento empresarial. Os estudantes adquirem habilidades essenciais para gerenciar processos administrativos em empresas de diferentes setores.</p>
+         </div>
+        </div>
+        <div class="curso">
+          <img src="agro.png" alt="Curso de Agronegócio">
+          <div>
+            <strong>Agronegócio</strong>
+            <p>O curso de Agronegócio é destinado a quem deseja atuar no setor agrícola, capacitando os alunos na gestão de empresas do agronegócio. Os estudantes aprendem sobre práticas de produção, sustentabilidade, marketing e logística, com foco em eficiência e inovação no campo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 coluna-direita">
+        <div class="curso">
+          <img src="ds.png" alt="Curso de Desenvolvimento de Sistemas">
+          <div>
+            <strong>Desenvolvimento de Sistemas</strong>
+            <p>O curso de Desenvolvimento de Sistemas prepara os estudantes para atuar na área de tecnologia da informação, com foco no desenvolvimento de sistemas e aplicativos. A formação abrange programação, análise de sistemas, banco de dados e desenvolvimento de software, capacitando os alunos para criar soluções tecnológicas inovadoras.</p>    
+          </div>
+        </div>
+        <div class="curso">
+          <img src="guia.png" alt="Curso de Guia de Turismo">
+          <div>
+            <strong>Guia de Turismo</strong>
+            <p>O curso de Guia de Turismo é voltado para a formação de profissionais que atuam na recepção e acompanhamento de turistas, com ênfase no conhecimento de história, cultura local, organização de roteiros turísticos e técnicas de atendimento ao cliente. Os alunos aprendem a promover destinos turísticos e garantir uma experiência de qualidade para os visitantes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Contato -->
+    <div class="container" id="contato" style="margin-top: -20px;">
+      <h2 class="section-title">Contato</h2>
+      <div class="row">
+        <div class="col-md-8">
+          <p>Entre em contato com a escola preenchendo o formulário abaixo:</p>
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem:</label>
+              <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+          </form>
+        </div>
+
+        <div class="col-md-4">
+          <div class="info-box">
+            <h4>Informações da Escola</h4>
+            <p><strong>Endereço:</strong> CE 261, S/N, Serra do Mar – Bairro: Mutamba – Icapuí – CE – CEP 62810-000.</p>
+            <p><strong>Email:</strong> epicapui@escola.ce.gov.br</p>
+            <p><strong>Instagram:</strong> @ep.jaimecunhareboucas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 EEEP Jaime da Cunha Rebouças. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

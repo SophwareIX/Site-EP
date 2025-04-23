@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.content {
+    padding: 40px 0;
+}
+  
+.section-title {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    border-radius: 0 !important;
+}
+
+header {
+    background-color: #3c783d;
+    color: white;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 0 30px;
+}
+  
+.logo-header {
+    height: 250px;
+    width: auto;
+    margin-top: 4px;
+}
+
+.titulo-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    margin: 0;
+}
+  
+.subtitulo-header {
+    font-size: 15px;
+    margin-top: 10px;
+}
+  
+.curso {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+  
+.curso img {
+    width: 90px;
+    height: auto;
+    margin-right: 15px;
+}
+  
+.coluna-esquerda, .coluna-direita {
+    padding: 20px;
+}
+  
+.curso strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+  
+.info-box {
+    background-color: #d0f0c0;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+  
+.info-box h4 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+  
+.info-box p {
+    margin-bottom: 10px;
+}
+  
+form .form-group label {
+    font-weight: bold;
+}
+  
+form .btn {
+    margin-top: 10px;
+}
+  
+footer {
+    background-color: #efedec;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 14px;
+    color: #333;
+}  
